@@ -237,6 +237,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   gap: 32px;
+  flex: content;
 }
 
 /* Medium screens and up */
