@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function Navbar() {
         <ThemeToggle/>
         {isOpen && <button onClick={toggleMenu}>Close</button>}
       </nav>
-      <img onClick={toggleMenu} className="img" src="/menu.svg" />
+      <Image onClick={toggleMenu} alt="This is an image" className="img" src="/menu.svg" />
     </header>
   );
 }
