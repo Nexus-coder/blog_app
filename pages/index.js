@@ -1,6 +1,8 @@
 import AllBlogs from "@/components/AllBlogs";
 import Blog from "@/components/Blog";
 import FeaturedBlogs from "@/components/FeaturedBlogs";
+import Heading from "@/components/Heading";
+import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 //The head component is used for optimization of te page for the bots
 //Next Js provides this for us and allows us to be able to inject elements of the page directly to the head
@@ -16,8 +18,10 @@ export default function Home() {
             Blog App
           </title>
           {/* the description text to the content will come up inn a search result when we search in google */}
-          <meta name="description" content="This is the page that contains all the details of the blogs"/>
+          <meta name="description" content="This is the page that contains all the details of the blogs" />
         </Head>
+        <Navbar />
+        <Heading>BLOG</Heading>
         <h2 style={{ margin: "10px 0px 10px 35px" }}>Featured Blogs</h2>
         <FeaturedBlogs>
           <Blog />
