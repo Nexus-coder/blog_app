@@ -18,8 +18,8 @@ export default function Navbar() {
     <header className="blog-header">
       <h2>Andrew</h2>
       <nav className={`blog-header__navbar  ${isOpen ? "slide-in_menu open" : "close"}`}>
-        {links.map((link) => (
-          <Link className="blog-header__navbar-link" href={link.href}>
+        {links.map((link,index) => (
+          <Link className="blog-header__navbar-link" href={link.href} key={index}>
             {link.name}
           </Link>
         ))}
