@@ -291,6 +291,9 @@ body {
 
 /* Large screens and up */
 @media (min-width: 992px) {
+  .container{
+    padding: 0px 80px;
+  }
   .blog-card__image {
     height: 230px;
     max-width: 500px;

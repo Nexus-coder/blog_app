@@ -27,7 +27,7 @@ export default function Navbar() {
         <ThemeToggle/>
         {isOpen && <button onClick={toggleMenu}>Close</button>}
       </nav>
-      <Image onClick={toggleMenu} alt="This is an image" className="img" src="/menu.svg" />
+      <Image onClick={toggleMenu} alt="This is an image" className="img" src="/menu.svg" width={10} height={10} />
     </header>
   );
 }
