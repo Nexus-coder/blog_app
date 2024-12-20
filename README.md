@@ -61,8 +61,7 @@ I also need to improve on how i arrange my project structure.
 
 ### Useful resources
 
-- [Next JS](https://nextjs.org/docs) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
+- [Next JS](https://nextjs.org/docs) - This helped me to bring the u to life and to make it faster and more snappier.
 ## Author
 
 - Website - [Andrew Kimani](https://www.andrewkimani.tech/)
